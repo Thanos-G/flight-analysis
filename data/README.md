@@ -41,5 +41,5 @@ This folder contains all datasets used throughout the project pipeline.
 ## ⚠️ Notes
 
 - The raw dataset `DelayedFlights.csv` is **not included** in the repository due to file size (~350MB). Download it directly from [Kaggle](https://www.kaggle.com/datasets/giovamata/airlinedelaycauses) and place it in this folder before running the notebooks.
-- `flight_clean.csv` and `flight_ml_ready.csv` are included as **samples** (first 10,000 rows) for reference only. To reproduce the full results, generate them by running the notebooks on the complete raw dataset.
+- `flight_clean.csv` and `flight_ml_ready.csv` are included as **samples** for reference only. To reproduce the full results, generate them by running the notebooks on the complete raw dataset.
 - Always run the notebooks **in order** (01 → 02 → 03 → ...) to ensure each file is generated before it is needed.
